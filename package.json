@@ -1,0 +1,27 @@
+{
+  "name": "news-aggregator-api",
+  "version": "1.0.0",
+  "description": "News aggregator api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhiramelf/news-aggregator-api.git"
+  },
+  "author": "Abhiram A",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhiramelf/news-aggregator-api/issues"
+  },
+  "homepage": "https://github.com/abhiramelf/news-aggregator-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
