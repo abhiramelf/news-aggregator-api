@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Defines the user schema for authentication and preference updation
 let Schema = mongoose.Schema;
 let userSchema = new Schema({
     fullName: {

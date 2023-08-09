@@ -2,6 +2,7 @@ const jwt =  require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const User = require('../models/user');
 
+// Business logic for user registration and saving to DB
 let signup = (req, res) => {
     let fullName = req.body.fullName;
     let email = req.body.email;
@@ -20,6 +21,7 @@ let signup = (req, res) => {
     });
 };
 
+// Business logic for user login and password comparison
 let signin = (req, res) => {
     let email = req.body.email;
     let password = req.body.password;

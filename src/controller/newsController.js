@@ -1,3 +1,4 @@
+// Gets the NEWS data from external API
 const { default: axios } = require("axios");
 
 function getNews(url) {

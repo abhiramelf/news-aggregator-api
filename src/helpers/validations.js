@@ -1,3 +1,4 @@
+// Validations for checking the update preference request body
 class validation {
     static validatePreferenceInfo(preferenceInfo) {
         if(preferenceInfo.hasOwnProperty("q") &&
